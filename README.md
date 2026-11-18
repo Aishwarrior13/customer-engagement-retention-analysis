@@ -31,6 +31,9 @@ The 3- and 4-product groups are small and their high churn rates should be inter
 - High-value disengaged customer detector.
 - Retention-priority segment analysis.
 
+## Live dashboard
+The interactive dashboard is deployed on Streamlit Community Cloud. Add the public app URL here once final access has been verified.
+
 ## Run locally
 Keep `app.py` and `bank_retention_dashboard.csv` in the same folder.
 
@@ -59,8 +62,11 @@ The Relationship Strength Index assigns 50 points for active status and 50 point
 - `requirements.txt` — Python dependencies.
 - `Research_Paper_Concise.md` — research paper.
 - `Executive_Summary.md` — executive summary.
+- `Research_Paper_Concise.docx` and `Executive_Summary.docx` — Word versions of the reports.
+- `bank_retention_dashboard.csv` — processed dashboard dataset.
+- `churn_by_engagement.png`, `churn_by_product_count.png`, `churn_by_relationship_tier.png`, and `churn_by_retention_segment.png` — analysis charts.
 
-Add `bank_retention_dashboard.csv` to this folder before running the dashboard. The processed dataset is not included in this repository yet.
+`bank_retention_dashboard.csv` — processed dataset used by the dashboard.
 
 ## Limitations
 The dataset is observational and does not establish causation. Product count does not measure usage frequency; credit-card ownership does not prove card usage; estimated salary is not verified income; and the activity indicator does not provide transaction frequency. The dataset does not include churn reasons. Small 3–4 product groups require cautious interpretation.
