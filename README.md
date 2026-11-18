@@ -32,7 +32,7 @@ The 3- and 4-product groups are small and their high churn rates should be inter
 - Retention-priority segment analysis.
 
 ## Live dashboard
-The interactive dashboard is deployed on Streamlit Community Cloud. Add the public app URL here once final access has been verified.
+The interactive dashboard is deployed on Streamlit Community Cloud: https://customer-engagement-retention-analysis-aishwarrior.streamlit.app/
 
 ## Run locally
 Keep `app.py` and `bank_retention_dashboard.csv` in the same folder.
